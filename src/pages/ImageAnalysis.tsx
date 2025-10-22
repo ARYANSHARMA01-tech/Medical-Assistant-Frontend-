@@ -54,8 +54,8 @@ const ImageAnalysis = () => {
       formData.append("file", selectedFile);
 
       const response = await axios.post(
-        // "http://127.0.0.1:8000/image",
-            "https://brand-sunrise-production-keys.trycloudflare.com/image",
+        "https://aryansh0007-medical.hf.space/image",
+            
         formData,
         {
           headers: {

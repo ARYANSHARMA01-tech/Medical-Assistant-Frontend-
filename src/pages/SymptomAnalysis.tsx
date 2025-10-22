@@ -58,8 +58,7 @@ const SymptomAnalysis = () => {
     setIsLoading(true);
 
     try {
-      // const response = await axios.post("http://127.0.0.1:8000/chat", {
-         const response = await axios.post("https://brand-sunrise-production-keys.trycloudflare.com/chat", {
+      const response = await axios.post("https://aryansh0007-medical.hf.space/chat", {
         message: input,
       });
 

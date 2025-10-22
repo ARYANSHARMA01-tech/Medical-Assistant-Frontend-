@@ -58,8 +58,8 @@ export const FloatingDoctorButton = () => {
       if (disease.trim()) params.append("disease", disease.trim());
       if (symptom.trim()) params.append("symptom", symptom.trim());
 
-      // const url = `http://127.0.0.1:8000/find_doctors?${params.toString()}`;
-            const url = `https://brand-sunrise-production-keys.trycloudflare.com/find_doctors?${params.toString()}`;
+      const url = `https://aryansh0007-medical.hf.space/find_doctors?${params.toString()}`;
+            
       console.log("Doctor search request:", { method: "GET", url });
       const response = await axios.get<DoctorResponse>(url);
 
